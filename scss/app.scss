@@ -43,10 +43,10 @@ $balanced: $green !default;
 $assertive: $red !default;
 $energized: $yellow !default;
 $stable: $gray-lighter !default;
-$royal: $orange !default;
+$royal: $green !default;
 $calm: $turquoise !default;
 
-$mm-color:          $orange;
+$mm-color:          $red;
 $mm-color-light:    lighten($mm-color, 10%);
 $mm-color-dark:     darken($mm-color, 10%);
 
@@ -187,6 +187,17 @@ $ionicons-font-path: "../lib/ionic/release/fonts" !default;
       color: $gray-darker;
     }
   }
+
+  &.button.button-positive {
+    border-color: $red-dark;
+    background-color: $red-dark;
+    color: #fff;
+  }
+
+ &.progress-chart-container, .progress-doughnut, .progress-indicator, svg, .circle {
+ 	stroke: #d3121a;
+ }
+
 }
 
 // Include all of Moodle Mobile.
