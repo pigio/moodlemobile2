@@ -32,6 +32,8 @@ $red-dark:        darken($red, 10%);
 $orange:          #f98012; // Accent (never text).
 $orange-light:    lighten($orange, 10%);
 
+$red-arcadia:	#d3121a;
+
 $yellow:          #fbad1a; // Accent (never text).
 $yellow-light:    mix($yellow, white, 20%);
 $yellow-dark:     mix($yellow, black, 40%);
@@ -194,7 +196,7 @@ $ionicons-font-path: "../lib/ionic/release/fonts" !default;
     color: #fff;
   }
 
- &.progress-chart-container, .progress-doughnut, .progress-indicator, svg, .circle {
+ .progress-chart-container .progress-doughnut .progress-indicator svg .circle {
  	stroke: #d3121a;
  }
 
