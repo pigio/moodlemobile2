@@ -52,9 +52,8 @@ $item-input-padding: 16px !default;
  * App Branding
  */
 .mm-bglogo {
-  background-color: #d3121a; /* Change this to add a bg image or change color */
-  background: -webkit-radial-gradient(#d3121a, #d3121a);
-  background: radial-gradient(#d3121a, #d3121a);
+  background-color: $gray-light; /* Change this to add a bg image or change color */
+
   background-repeat: no-repeat;
   background-position: center center;
   position: absolute;

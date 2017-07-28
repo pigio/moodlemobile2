@@ -193,13 +193,14 @@ $ionicons-font-path: "../lib/ionic/release/fonts" !default;
   }
 
   &.button.button-positive {
-    border-color: $red-dark;
-    background-color: $red-dark;
+    border-color: $red-arcadia;
+    background-color: $red-arcadia;
     color: #fff;
   }
 
  .progress-chart-container .progress-doughnut .progress-indicator svg .circle {
  	stroke: #d3121a;
+  color:  #d3121a;
  }
 
 }

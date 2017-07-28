@@ -5,7 +5,7 @@ $doughnut-empty-colour: $gray-light;
 //$doughnut-fill-colour: $orange-light;
 $doughnut-fill-colour: $red-arcadia;
 $doughnut-border-colour:  $gray-dark;
-$doughnut-text-colour: $gray-darker;
+$doughnut-text-colour: #d3121a;
 
 .item-course {
   >.icon, >ion-spinner {
@@ -55,6 +55,7 @@ $doughnut-text-colour: $gray-darker;
       color: $doughnut-text-colour;
       font-size: 95%;
       letter-spacing: -1px;
+
     }
 
     .progress-indicator {
